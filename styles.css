@@ -1,0 +1,212 @@
+body {
+    border: 0;
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+.navBar ul,
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+    background-color: #1F2937;
+    margin: 0;
+}
+
+.navBar ul li {
+    padding: 14px;
+}
+
+.navBar a {
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.navBar a:hover {
+    color: aliceblue;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: #1F2937;
+}
+
+.image {
+    padding: 20px;
+
+}
+
+.messages{
+    width: 450px;
+}
+
+.messages h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.messages h4 {
+    margin-top: -15px;
+    font-weight: normal;
+    color: #F9FAF8;
+}
+
+.ctaButton {
+    border-radius: 11px;
+    background-color: #3882F6;
+    margin: 0;
+    width: 135px;
+}
+
+.ctaButton a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    padding: 7px 15px 7px 15px;
+}
+
+.carousel,
+.imageBlocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel {
+    flex-direction: column;
+    height: 350px;
+}
+
+.imageBlocks ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 130px
+}
+
+.block img {
+    border-radius: 15px;
+    border: 3px solid cornflowerblue;
+}
+
+.carousel h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: -5%;
+}
+
+.block h5 {
+    font-weight: normal;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+}
+
+.quote h1 {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 25px;
+    color: #1F2937;
+}
+
+.quote h2 {
+    align-self: flex-end;
+    margin-right: 20%;
+    margin-top: -2%;
+    font-size: 15px;
+}
+
+.cta .ctaButton {
+    border-color: #E5E7EB;
+    border-style: solid;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+.cta {
+    height: 150px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 12% 5% 12%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta h2 {
+    font-size: 20px;
+}
+
+.cta h4 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.ctaText {
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.footer {
+    color: #E5E7EB;
+    height: 80px;
+}
+
+@media only screen and (max-width: 700px) {
+    .navBar ul li {
+        padding: 5px;
+    }
+    .navBar ul{
+        flex-direction: column;
+    }
+    .navBar .headerLink{
+        align-self: flex-end;
+        margin-right: 5%;
+    }
+    .ctaButton {
+        margin-bottom: 3%;
+        margin-top: -4%;
+    }
+}
+
